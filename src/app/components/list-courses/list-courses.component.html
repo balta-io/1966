@@ -1,0 +1,25 @@
+<div class="container-fluid">
+  <table class="table table-striped hidden-xs">
+    <thead>
+      <tr>
+        <th class="text-center">Tag</th>
+        <th class="text-center">Título</th>
+        <th class="text-center">Duração</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let course of courses">
+        <td class="text-center">{{ course.tag }}</td>
+        <td><a routerLink="/courses/details/{{ course.tag }}">{{ course.title }}</a></td>
+        <td class="text-center">{{ course.duration }} minutos</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="list-group visible-xs">
+    <a routerLink="/courses/details/{{ course.tag }}" class="list-group-item" *ngFor="let course of courses">
+      <h5 class="list-group-item-heading">{{ course.tag }}</h5>
+      <p class="list-group-item-text">{{ course.title }}</p>
+    </a>
+  </div>
+</div>

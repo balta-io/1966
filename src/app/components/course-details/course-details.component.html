@@ -1,0 +1,14 @@
+<div class="container">
+    <h3 class="text-center">
+        {{ course.tag }} {{ course.title }} <br>
+        <small>{{ course.summary }}</small>
+    </h3>
+    <hr>
+    <div [innerHTML]="course.description"></div>
+    <hr>
+    <ul class="list-unstyled">
+        <li><strong>Duração:</strong> {{ course.duration }} minutos</li>
+        <li><strong>Aulas:</strong> {{ course.classes }}</li>
+        <li><strong>Visualizações:</strong> {{ course.views }}</li>
+    </ul>
+</div>

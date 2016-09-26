@@ -4,15 +4,15 @@ Neste curso vamos entender as principais mudanças do Angular 2 criando uma apli
 
 * Conteúdo Programático
  * Bem vindo ao Angular 2
-* Angular CLI
-* Estrutura de Pastas
-* Criando a Classe Course
-* Adicionando os componentes
-* Organizando Components em Pages
-* Trabalhando com Rotas
-* Criando serviços
-* Trabalhando nas Views
-* Compilando e Publicando
+ * Angular CLI
+ * Estrutura de Pastas
+ * Criando a Classe Course
+ * Adicionando os componentes
+ * Organizando Components em Pages
+ * Trabalhando com Rotas
+ * Criando serviços
+ * Trabalhando nas Views
+ * Compilando e Publicando
 
 
 Link para o curso
